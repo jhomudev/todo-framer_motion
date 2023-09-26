@@ -12,7 +12,7 @@ const toastMessage:Middleware = (_) => (next) => (action) => {
       toast.success('Task added')
       break
     case deleteTasksCompleted.type:
-      toast.success('Tasks completed added')
+      toast.success('Tasks completed deleted')
       break
   }
 }
